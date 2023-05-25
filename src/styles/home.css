@@ -1,0 +1,147 @@
+.hero__section {
+    padding: 30px 0px;
+    background: var(--primary-color); /*колір фону заді заголовку*/
+}
+
+.best__sales {
+    padding-top: 10px;
+}
+
+.hero__content h2 {
+    border: 4px solid #fff;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+/*
+.hero__img {
+    margin: 0 0 5px 5px;
+}
+*/
+/*
+.hero__subtitle p {
+    color: var(--primary-color);
+    line-height: 10px;
+}
+*/
+.hero__content p {
+    color: #fff;
+    line-height: 30px;
+    font-weight: 550;
+}
+
+.hero__section p:nth-child(i) {
+    font-weight: 500;
+}
+
+.buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: #fff;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.buy__btn a:hover {
+    color: var(--primary-color);
+}
+
+.hero__content {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.timer__count {
+    background: var(--primary-color);
+    height: 340px;
+    object-fit: contain;
+}
+/*
+.timer__count img {
+    width: 70% !important;
+    height: 70%;
+}
+*/
+.store__btn {
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.store__btn a:hover {
+    color: var(--primary-color);
+}
+
+.clock__top-content {
+    text-align: center;
+}
+
+.count__down-col {
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+
+    .section__title {
+        font-size: 2rem;
+    }
+/*
+    .counter__img {
+        display: none;
+    }
+*/
+    .clock__top-content {
+        text-align: center;
+    }
+
+    .clock__top-content h4 {
+        font-size: 0.9rem !important;
+    }
+
+    .clock__top-content h3 {
+        font-size: 1rem !important;
+    }
+
+    .count__down-col {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__content h2 {
+        font-size: 1.6rem;
+    }
+
+    .hero__content p {
+        font-size: 0.9rem;
+    }
+
+    .buy__btn {
+        font-size: 0.9rem;
+    }
+
+    .section__title {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__content p {
+        padding-bottom: 40px;
+        padding-top: 0;
+    }
+    
+    .buy__btn {
+        font-size: 0.9rem;
+    }
+}
