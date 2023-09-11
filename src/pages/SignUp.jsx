@@ -28,7 +28,7 @@ const Signup = ( ) => {
                                 <input type="password" placeholder="Enter your password" />
                             </FormGroup>
 
-                            <button className="buy__btnBlue auth__btn">Create an Account</button>
+                            <button className="buy__btnBl auth__btn">Create an Account</button>
                             <p> Already have an account?{" "}
                                 <Link to="/login"> Login </Link></p>
                         </Form>

@@ -101,7 +101,7 @@ const ProductDetails = ( ) => {
 
                                 <p className="mt-3">{shortDesc}</p>
                                 <motion.button whileTap = {{ scale: 1.2 }} 
-                                className="buy__btn" onClick={addToCart}>Add to Cart</motion.button>
+                                className="buy__btnBlue" onClick={addToCart}>Add to Cart</motion.button>
                             </div>
                         </Col>
                     </Row>
@@ -155,7 +155,7 @@ const ProductDetails = ( ) => {
                                                     <textarea ref={reviewMsg} rows={4} type="text" placeholder="Review Message..." required/>
                                                 </div>
 
-                                                <motion.button whileTap={{scale:1.2}} type="submit" className="buy__btn">Submit</motion.button>
+                                                <motion.button whileTap={{scale:1.2}} type="submit" className="buy__btnBlue">Submit</motion.button>
                                             </form>
                                         </div>
                                     </div>
