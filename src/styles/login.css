@@ -1,20 +1,3 @@
-.buy__btnBl {
-    border: none;
-    outline: none;
-    padding: 8px 20px;
-    border-radius: 5px;
-    background: #fff;
-    color: var(--primary-color);
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 40px;
-    font-weight: 550;
-}
-
-.buy__btnBl a:hover {
-    color: var(--primary-color);
-}
-
 .auth__form {
     background: var(--primary-color);
     padding: 40px;
@@ -22,6 +5,8 @@
 }
 
 .auth__btn {
+    background: #fff;
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -31,4 +16,9 @@
 
 .auth__form p a {
     color: #ffffffda;
+}
+
+.auth__form input[type='file'] {
+    color: #fff;
+    cursor: pointer;
 }
